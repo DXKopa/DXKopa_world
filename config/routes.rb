@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'articles/new'
+
+  get 'articles/update'
+
+  get 'articles/delete'
+
+  get 'articles/index'
+
   resources :photos
   resources :proverbs
   resources :categories
